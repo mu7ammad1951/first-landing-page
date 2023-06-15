@@ -1,71 +1,93 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>A Landing Page</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <main>
-            <div>
-                <h1>Header Logo</h1>
-                <ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first-container">
+        <div class="container-content">
+            <header>
+                <h1 id="header-logo">Header Logo</h1>
+                <ul class="secondary">
                     <li>header link one</li>
                     <li>header link two</li>
                     <li>header link three</li>
                 </ul>
-            </div>
-            <div>
+                
+            </header>
+            <div class="hero-container">
                 <div>
-                    <p>This website is awesome</p>
-                    <p>This website has smaller subtext that goes here under the main title. 
-                        It's smaller font and the color is lower contrast
-                    </p>
-                    <button>Sign up</button>
+                    <p id="hero-main-text">This website is awesome</p>
+                    <p class="secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button id="sign-up-button">Sign Up</button>
+
                 </div>
                 <div>
-                    <img a="https://dummyimage.com/600x400/828282/ffffff&text=This+is+a+placeholder+for+an+image">
+                    <img src="https://placehold.co/550x250" alt="placeholder image">
                 </div>
+
             </div>
+        </div>
+    </div>
+
+
+    <div class="second-container">
+        <div class="second-container-content">
             <div>
-                <h2>Some random information</h2>
+                <p class="information-header">Some random information</p>
+            </div>
+            <div class="carousel">
                 <ul>
                     <li>
-                        <img src="" alt="">
-                        <figcaption></figcaption>
+                        <img class="card" src="https://dummyimage.com/200x200/ffffff/fff.jpg" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <figcaption></figcaption>
+                        <img class="card" src="https://dummyimage.com/200x200/ffffff/fff.jpg" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <figcaption></figcaption>
+                        <img  class="card"  src="https://dummyimage.com/200x200/ffffff/fff.jpg" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <figcaption></figcaption>
+                        <img class="card"  src="https://dummyimage.com/200x200/ffffff/fff.jpg" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
                     </li>
                 </ul>
             </div>
-            <div>
-                <blockquote>
-                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows?
-                    All I know is that it looks nice.
-                </blockquote>
-                <p>-Thor, God of Thunder</p>
+        </div>
+    </div>
+    
+
+
+    <div class="third-container">
+        <div class="third-container-content">
+            <p class="quote-text">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            </p>
+            <p class="author">-Thor, God of Thunder</p>
+        </div>
+    </div>
+
+    <div class="fourth-container">
+        <div class="banner">
+            <div class="banner-text">
+                <p class="main">Call to action! It's time!</p>
+                <p class="secondary">Sign up for our product by clicking that button right over there!</p>
             </div>
-            <div>
-                <div>
-                    <p>Call to action! It's time!</p>
-                    <p>Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <div>
-                    <button>Sign Up</button>
-                </div>
-            </div>
-            <div>
-                <p>Copyright # The Odin Project 2023</p>
-            </div>
-        </main>
-    </body>
+            <button class="second-signup-button">Sign up</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+</body>
 </html>
